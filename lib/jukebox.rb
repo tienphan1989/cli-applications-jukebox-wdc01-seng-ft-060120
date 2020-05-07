@@ -22,8 +22,7 @@ end
 
 def list(songs)
 song_list = []
-songs.each_with_index { |song, index| song_list.push(index + #{song})
-binary.pry
+songs.each_with_index { |song, index| puts "#{index + 1}. + #{song}"
 end
 end
 
