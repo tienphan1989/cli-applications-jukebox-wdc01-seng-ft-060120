@@ -20,6 +20,6 @@ end
 
 def list(songs)
 song_list = []
-songs.each_with_index { |song| song_list.push()
+songs.each_with_index { |song, index| song_list.push()
 end
 
