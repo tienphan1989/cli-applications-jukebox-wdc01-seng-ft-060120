@@ -28,9 +28,9 @@ end
 
 def play(songs)
 puts "Please enter a song name or number:"
-input = gets.chomp
+input = gets.strip
 songs.each_with_index do |song, index| 
-  if input == song |
+  if input == song 
     puts "Playing #{song}"
     elsif song == songs[input.to_i-1]
     puts "Playing #{song}"
