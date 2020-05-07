@@ -1,3 +1,5 @@
+require 'pry'
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -20,6 +22,7 @@ end
 
 def list(songs)
 song_list = []
-songs.each_with_index { |song, index| song_list.push()
+songs.each_with_index { |song, index| song_list.push((index + 1) + "." + #{song})
+binary.pry
 end
 
