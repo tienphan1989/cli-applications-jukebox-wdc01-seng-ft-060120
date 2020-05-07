@@ -20,6 +20,6 @@ end
 
 def list(songs)
 song_list = []
-songs.map { |song| song_list.push()
+songs.Array.each_with_index { |song| song_list.push()
 end
 
