@@ -26,3 +26,9 @@ songs.each_with_index do |song, index|
 end
 end
 
+def play(songs)
+puts "Please enter a song name or number:"
+input = gets.strip
+
+end
+
