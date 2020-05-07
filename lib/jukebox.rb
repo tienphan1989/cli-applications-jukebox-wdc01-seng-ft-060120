@@ -34,7 +34,12 @@ songs.each_with_index do |song, index|
     puts "Playing #{song}"
     elsif index == input[index-1]
     puts "Playing #{song}"
-  else puts "Invalid input, please try again"
+  else 
+    puts "Invalid input, please try again"
+  end
+end
+end
+end
       
 
 end
