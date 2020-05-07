@@ -40,7 +40,3 @@ songs.each_with_index do |song, index|
 end
 end
 
-      
-
-end
-
