@@ -46,4 +46,13 @@ def run
 puts "Please enter a command:"
 input = gets.chomp
 until input == exit
+if input == help
+  help
+  run
+  if input == list
+    list
+    run
+    if input == play
+      play
+      run
 end
