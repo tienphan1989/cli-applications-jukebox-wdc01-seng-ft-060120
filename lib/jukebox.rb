@@ -40,3 +40,6 @@ songs.each_with_index do |song, index|
 end
 end
 
+def exit_jukebox
+  puts "Goodbye"
+end
