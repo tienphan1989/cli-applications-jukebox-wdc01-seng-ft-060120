@@ -30,7 +30,7 @@ def play(songs)
 puts "Please enter a song name or number:"
 input = gets.chomp
 songs.each_with_index do |song, index| 
-  if input == song 
+  if input.to_i == index 
     puts "Playing #{song}"
     elsif song == songs[(input.to_i)-1]
     puts "Playing #{song}"
