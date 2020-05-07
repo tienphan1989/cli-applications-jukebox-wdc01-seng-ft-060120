@@ -18,3 +18,8 @@ puts "-play : lets you choose a song to play"
 puts "-exit : exits this program"
 end
 
+def list(songs)
+song_list = []
+songs.map { |song| song_list.push()
+end
+
