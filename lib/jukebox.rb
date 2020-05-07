@@ -55,4 +55,7 @@ if input == help
     if input == play
       play
       run
+    end
+  end
+end
 end
