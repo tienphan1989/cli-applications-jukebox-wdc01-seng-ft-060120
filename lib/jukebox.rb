@@ -50,10 +50,10 @@ if input == help
   help
   run
   if input == list
-    list
+    list(songs)
     run
     if input == play
-      play
+      play(songs)
       run
     end
   end
