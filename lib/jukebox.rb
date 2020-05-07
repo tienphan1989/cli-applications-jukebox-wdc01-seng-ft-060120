@@ -25,4 +25,5 @@ song_list = []
 songs.each_with_index { |song, index| song_list.push(index + #{song})
 binary.pry
 end
+end
 
