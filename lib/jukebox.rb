@@ -21,7 +21,6 @@ puts "-exit : exits this program"
 end
 
 def list(songs)
-song_list = []
 songs.each_with_index do |song, index| 
   puts "#{index + 1}. + #{song}"
 end
