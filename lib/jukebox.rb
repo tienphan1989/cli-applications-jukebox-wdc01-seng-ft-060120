@@ -45,5 +45,5 @@ end
 def run
 puts "Please enter a command:"
 input = gets.chomp
-until 
+until input == exit
 end
