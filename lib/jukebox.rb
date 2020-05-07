@@ -32,7 +32,9 @@ input = gets.strip
 songs.each_with_index do |song, index| 
   if input == song || input == index
     puts "Playing #{song}"
-    if input == index
+    elsif index == input[index-1]
+    puts "Playing #{song}"
+  else puts "Invalid input, please try again"
       
 
 end
