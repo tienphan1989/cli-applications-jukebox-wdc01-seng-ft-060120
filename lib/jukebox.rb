@@ -31,9 +31,9 @@ puts "Please enter a song name or number:"
 input = gets.chomp
 songs.each_with_index do |song, index| 
   if input.to_i == index 
-    puts "Playing #{song[i-1]}"
+    puts "Playing #{song[index-1]}"
     elsif input == song
-    puts "Playing #{song[i}"
+    puts "Playing #{song[index}"
   else 
     puts "Invalid input, please try again"
   end
