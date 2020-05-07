@@ -22,7 +22,7 @@ end
 
 def list(songs)
 song_list = []
-songs.each.with_index { |song, index| song_list.push(index + #{song})
+songs.each_with_index { |song, index| song_list.push(index + #{song})
 binary.pry
 end
 
